@@ -306,7 +306,13 @@ body {
     font-size: 0.95rem;
     transition: all 0.3s ease;
 }
-
+.CV{
+    display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 15px auto 0;
+}
 .btn:hover {
     background-color: var(--accent-electric);
     color: var(--bg-dark-main);
